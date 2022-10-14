@@ -12,7 +12,7 @@ export default {
             return(
                 <div className='flex items-center gap-2'>
                     {Story()}
-                    <Text size='sm' color='slate-500'>Lembrar de mim</Text>
+                    <Text size='sm'>Lembrar de mim</Text>
                 </div>
             )
         }
