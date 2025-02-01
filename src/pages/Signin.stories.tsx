@@ -16,7 +16,7 @@ export default {
             handlers:[
                 rest.post('/sessions', (req, res, ctx) => {
                     return res(ctx.json({
-                        message: "Login Realizado!"
+                        message: "Login realizado!"
                         
                     }))
                 } )
